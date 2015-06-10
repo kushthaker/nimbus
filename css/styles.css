@@ -288,20 +288,7 @@ body, html {
 .white {
 	border: 2px solid orange;
 	color: orange;
-}
-
-.table-view {
-	display: table;
-	height: 100%;
-	width: 100%;
-}
-
-.table-cell {
-	display: table-cell;
-	height: 100%;
-	width: 100%;
-	vertical-align: middle;
-}
+}	
 
 .section-head-font {
 	font-family: OpenSans-ExtraBold;
@@ -325,10 +312,6 @@ body, html {
 /*MEDIA QUERY*/
 
 @media (max-width: 768px) {
-
-	#quote-section {
-		height: 1100px;
-	}
 
 	#services-section .container {
 		text-align: center;
