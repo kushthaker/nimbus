@@ -65,12 +65,44 @@ body, html {
 	}
 }
 
+@media (min-width: 400px) {
+	.navbar-right {
+	  float: right!important;
+	  margin: 15px 0px;
+	}
+
+	.navbar {
+	  position: relative;
+	  max-height: 80px;
+	  margin-bottom: 0px;
+	  border: 0px solid transparent;
+	  border-radius: 0px;
+	}
+}
+
+
+
 @media (max-width: 768px) {
 .navbar {
 	position: relative;
 	height: 100%;
 	margin-bottom: 0px;
 	border: 0px solid transparent;
+	}
+}
+
+@media (min-width: 400px) {
+	.navbar-right {
+	  float: right!important;
+	  margin: 15px 0px;
+	}
+
+	.navbar {
+	  position: relative;
+	  max-height: 80px;
+	  margin-bottom: 0px;
+	  border: 0px solid transparent;
+	  border-radius: 0px;
 	}
 }
 
